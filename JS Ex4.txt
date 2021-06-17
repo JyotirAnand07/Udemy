@@ -1,0 +1,7 @@
+function bmiCalculator(weight,height){
+
+let BMo=weight/(height*2);
+let BMI=Math.round(BMo);
+console.log(+BMI);
+return BMI;
+}

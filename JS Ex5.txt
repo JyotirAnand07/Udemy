@@ -1,0 +1,10 @@
+function bmiCalculator (weight, height) {
+   var BMI;
+   if(BMI<18.5)
+       { console.log("Your BMI is " +BMI+", so you are underweight.");}
+     else if(BMI>18.5 && BMI<24.9)
+        {console.log("Your BMI is " +BMI+", so you have a normal weight.");}
+     else if(BMI>24.9)
+        {console.log("Your BMI is " +BMI+", so you are overweight.");}
+    return BMI;
+}
